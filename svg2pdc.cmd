@@ -1,7 +1,7 @@
 @echo off
 
 if "%2"=="-o" (
-    python3 ./svg2pdc.py %1 -o %3
+    python3 svg2pdc.py %1 -o %3
     goto :eof
 )
 
